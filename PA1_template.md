@@ -297,7 +297,7 @@ Both the mean and median of the total number of steps taken per day calculated f
         xyplot(stepsPerInterval$steps ~ stepsPerInterval$interval | stepsPerInterval$day, 
                layout = c(1, 2), type = "l", 
                xlab = "Time Interval", ylab = "Average Number of Steps", 
-               main="Average Number of Steps Taken Per 5 Minutes Interval During Weekday and Weekend")
+               main="Average Number of Steps Taken Per 5 Minutes Interval")
 ```
 
 ![plot of chunk unnamed-chunk-15](figure/unnamed-chunk-15-1.png) 
